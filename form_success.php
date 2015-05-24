@@ -13,31 +13,33 @@
 <?php
     include("db.php");
     error_reporting(0);
-    
+
+    // make sure submit button has been clicked
     if($_POST['submit']) {
-        
-        $name = $_POST['name'];
-        $week = $_POST['week'];
-        $one = strtolower($_POST['one']);
-        $two = strtolower($_POST['two']);
-        $three = strtolower($_POST['three']);
-        $four = strtolower($_POST['four']);
-        $five = strtolower($_POST['five']);
-        $six = strtolower($_POST['six']);
-        $seven = strtolower($_POST['seven']);
-        $eight = strtolower($_POST['eight']);
-        $nine = strtolower($_POST['nine']);
-        $ten = strtolower($_POST['ten']);
-        $eleven = strtolower($_POST['eleven']);
-        $twelve = strtolower($_POST['twelve']);
-        $thirteen = strtolower($_POST['thirteen']);
-        $fourteen = strtolower($_POST['fourteen']);
-        $fifteen = strtolower($_POST['fifteen']);
-        $sixteen = strtolower($_POST['sixteen']);
+
+        // get the form input
+        $name = trim($_POST['name']);
+        $week = trim($_POST['week']);
+        $one = strtolower($_POST['game1']);
+        $two = strtolower($_POST['game2']);
+        $three = strtolower($_POST['game3']);
+        $four = strtolower($_POST['game4']);
+        $five = strtolower($_POST['game5']);
+        $six = strtolower($_POST['game6']);
+        $seven = strtolower($_POST['game7']);
+        $eight = strtolower($_POST['game8']);
+        $nine = strtolower($_POST['game9']);
+        $ten = strtolower($_POST['game10']);
+        $eleven = strtolower($_POST['game11']);
+        $twelve = strtolower($_POST['game12']);
+        $thirteen = strtolower($_POST['game13']);
+        $fourteen = strtolower($_POST['game14']);
+        $fifteen = strtolower($_POST['game15']);
+        $sixteen = strtolower($_POST['game16']);
         $current = date("Y-m-d H:i:s");
-        
     }
 
+    // build the query
     $query ="INSERT INTO nflbets
              VALUES(
              '$name',
@@ -59,18 +61,18 @@
              '$fifteen',
              '$sixteen',
              '$current')";
-     if(!mysql_query($query)) 
-     {
-        die('Error: ' . mysql_error());
-     }
 
+    // run the query
+    $result = mysqli_query($con, $query);
+
+    // test the query
+    if(!$result) {
+        die('Error');
+    }
+
+    // close the connection
+    mysqli_close($con);
 ?>
-
-<center><p><b>Thank you for your submission. GO COWBOYS!</b></p></center><br />
-<center><p><b>Almost everything on this webpage now is fully automated.
-              I no longer have to enter everything manually each and every week.
-              The table with the picks should be generated based on who has picked (so go take a look).
-              If something seems to be wrong, PLEASE LET ME KNOW.</b></p></center>
 </div>
 </body>
 </html>
