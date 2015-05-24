@@ -1,17 +1,17 @@
-<!doctype html>
+<?php include_once('includes/header.php'); ?>
+<?php include_once('includes/db.php'); ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Successfully Submitted</title>
+    <title>Processing Page</title>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-<?php include('includes/header.php'); ?>
-<br>
-<div id="content">
-<h1>Success</h1>
 <?php
-    include("db.php");
+    // turn on error reporting
     error_reporting(0);
 
     // make sure submit button has been clicked
@@ -73,6 +73,18 @@
     // close the connection
     mysqli_close($con);
 ?>
-</div>
+
+    <div class="container-fluid">
+        <div class="well">
+            <h1>Your picks are being reviewed</h1>
+            <p>Thank you for making your picks this week. The time of your submission will be reviewed in order to ensure
+               your picks were submitted on time. To view other participant's picks for this week, please take a look at the weekly
+               picks table.
+            </p>
+        </div><!-- end well -->
+    </div><!-- end container-fluid -->
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
