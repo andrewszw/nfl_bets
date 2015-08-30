@@ -12,153 +12,34 @@
 
     <div class="container-fluid">
         <div class="well">
-        <h2>Week 1</h2>
-
+        <h1>Week 1</h1>
+        
+        <hr>
         <br />
+        
+        <form action="form_success.php" method="post">
+            <p style="font-size:16px"><strong>Please enter your name and the current week number (1)</strong></p>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="week_no">Week Number</label>
+                <input type="text" class="form-control" name="week_no" value="1">
+            </div>
 
-        <p><strong>* Please make your picks on the form below. Please make sure to only enter the last name of the team spelled correctly
-                     and do not use abbreviations. A good example: "jaguars". A bad example: "jags".</strong>
-        </p>
+            <hr>
+            <br />
 
-        <br />
-            <form class="form-horizontal" role="form" method="post" action="form_success.php">
-
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">Your First Name:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="First Name">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="week" class="col-sm-2 control-label">Current Week Number:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="week" name="week" value="1">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game1" class="col-sm-2 control-label">Steelers @ Patriots</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game1" name="game1" placeholder="Steelers or Patriots">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game2" class="col-sm-2 control-label">Packers @ Bears</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game2" name="game2" placeholder="Packers or Bears">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game3" class="col-sm-2 control-label">Chiefs @ Texans</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game3" name="game3" placeholder="Chiefs or Texans">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game4" class="col-sm-2 control-label">Browns @ Jets</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game4" name="game4" placeholder="Browns or Jets">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game5" class="col-sm-2 control-label">Colts @ Bills</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game5" name="game5" placeholder="Colts or Bills">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game6" class="col-sm-2 control-label">Dolphins @ Redskins</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game6" name="game6" placeholder="Dolphins or Redskins">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game7" class="col-sm-2 control-label">Panthers @ Jaguars</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game7" name="game7" placeholder="Panthers or Jaguars">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game8" class="col-sm-2 control-label">Seahawks @ Rams</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game8" name="game8" placeholder="Seahawks or Rams">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game9" class="col-sm-2 control-label">Saints @ Cardinals</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game9" name="game9" placeholder="Saints or Cardinals">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game10" class="col-sm-2 control-label">Lions @ Chargers</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game10" name="game10" placeholder="Lions or Chargers">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game11" class="col-sm-2 control-label">Titans @ Buccaneers</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game11" name="game11" placeholder="Titans or Buccaneers">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game12" class="col-sm-2 control-label">Bengals @ Raiders</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game12" name="game12" placeholder="Bengals or Raiders">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game13" class="col-sm-2 control-label">Ravens @ Broncos</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game13" name="game13" placeholder="Ravens or Broncos">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game14" class="col-sm-2 control-label">Giants @ Cowboys</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game14" name="game14" placeholder="Giants or Cowboys">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game15" class="col-sm-2 control-label">Eagles @ Falcons</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game15" name="game15" placeholder="Eagles or Falcons">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <label for="game16" class="col-sm-2 control-label">Vikings @ 49ers</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="game16" name="game16" placeholder="Vikings or 49ers">
-                    </div><!-- end input col -->
-                </div><!-- end formgroup -->
-
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <input type="submit" name="submit" class="btn btn-success"></button>
-                    </div><!-- end button div -->
-                </div><!-- end form group -->
-
-            </form><!-- end form -->
+            <div id="form">
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        
         </div><!-- end well -->
     </div><!-- end container fluid -->
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
