@@ -15,10 +15,12 @@
             <h1>Weekly User Picks</h1>
             
             <br />
-             
+            
+            <div class="table-responsive"> 
             <div id="table">
 
             </div><!-- end table -->
+            </div>
          
         </div><!-- end well -->
     </div><!-- end container fluid -->

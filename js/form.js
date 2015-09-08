@@ -5,7 +5,7 @@ $(document).ready(function() {
         dataType: 'json',
         success: function(data) {
             var div = document.getElementById("form");
-            div.innerHTML += '<p style="font-size:16px"><strong>* Please make sure to only enter the last name of the team spelled correctly & DO NOT use abbreviations (ex: cowboys)</strong></p>';
+            div.innerHTML += '<p style="font-size:16px"><strong>* Please make sure to only enter the last name of the team spelled correctly & DO NOT use abbreviations (ex: cowboys)</strong></p><br />';
       
             nums = ['one', 'two', 'three', 'four', 'five', 'six', 'seven',
                     'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen',

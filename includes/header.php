@@ -22,12 +22,8 @@
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="form.php">Weekly Picks Form</a></li>
-                    <li><a href="#">Weekly Picks Table</a></li>
-                    <li><a href="#">Standings</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="table.php">Weekly Picks Table</a></li>
+                    <li><a href="standings.php">Standings</a></li>
                 </ul>
             </div><!-- end collapse navbar-collapse -->
         </div><!-- end container-fluid -->
