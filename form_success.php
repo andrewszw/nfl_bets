@@ -40,6 +40,7 @@
     $query ="INSERT INTO nflbets
              VALUES(
              '$name',
+             '2015',
              '$week',
              '$one',
              '$two',

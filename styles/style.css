@@ -2,4 +2,13 @@ body {
     background-color: #FEC60B;
 }
 
+#table td {
+    padding: 8px;
+}
+
+#table img {
+    width: 45px;
+    height: 37px;
+}
+
 
