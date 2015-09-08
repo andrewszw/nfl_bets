@@ -11,4 +11,18 @@ body {
     height: 37px;
 }
 
+#table .green {
+    border: 5px solid #008000;
+}
+
+#table .red {
+    border: 5px solid #FF0000;
+}
+
+#table table {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
 
