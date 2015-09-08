@@ -14,7 +14,7 @@
             <h1>NFL Bets 2015/2016</h1>
                 <p>Welcome to the new and improved NFL betting website. Throughout the NFL regular season, participants
                    will pick the winner of every NFL game on a week to week basis. The winner will be the individual with the
-                   most wins through the 17-week NFL season.
+                   most wins over the course of the 17-week NFL season.
                 </p>
         </div><!-- end jumbotron -->
     </div><!-- end container-fluid -->
