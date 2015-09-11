@@ -6,7 +6,7 @@ $(document).ready(function() {
         success: function(data) {
             
             // variables to hold the winners for each game
-            var win_one = "";
+            var win_one = "patriots";
             var win_two = "";
             var win_three = "";
             var win_four = "";
