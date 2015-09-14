@@ -19,7 +19,7 @@ $(document).ready(function() {
             var win_eleven = "titans";
             var win_twelve = "bengals";
             var win_thirteen = "broncos";
-            var win_fourteen = "";
+            var win_fourteen = "cowboys";
             var win_fifteen = "";
             var win_sixteen = "";
             

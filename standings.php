@@ -13,7 +13,7 @@
         <div class="well">
         <h1>Current Standings</h1>
         <br />
-        <p><strong>* There are currently no standings to report. The records you see are for TESTING.</strong></p>
+        <p><strong>* Last Updated: September 14, 2015 - 9:10am</strong></p>
         <br />
         <center>
             <div class="table-responsive">
