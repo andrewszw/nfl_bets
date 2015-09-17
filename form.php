@@ -12,20 +12,20 @@
 
     <div class="container-fluid">
         <div class="well">
-        <h1>Week 1</h1>
+        <h1>Week 2</h1>
         
         <hr>
         <br />
         
         <form action="form_success.php" method="post">
-            <p style="font-size:16px"><strong>Please enter your name and the current week number (1)</strong></p>
+            <p style="font-size:16px"><strong>Please enter your name and the current week number (2)</strong></p>
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" name="name" placeholder="Your Name">
             </div>
             <div class="form-group">
                 <label for="week_no">Week Number</label>
-                <input type="text" class="form-control" name="week_no" value="1">
+                <input type="text" class="form-control" name="week_no" value="2">
             </div>
 
             <hr>

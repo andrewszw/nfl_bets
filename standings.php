@@ -13,7 +13,7 @@
         <div class="well">
         <h1>Current Standings</h1>
         <br />
-        <p><strong>* Last Updated: September 14, 2015 - 9:10am</strong></p>
+        <p><strong>* Last Updated: September 15, 2015 - 9:08am</strong></p>
         <br />
         <center>
             <div class="table-responsive">

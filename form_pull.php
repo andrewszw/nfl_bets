@@ -2,7 +2,7 @@
   include('includes/db.php');
   
   // set up the query to get all of the nfl games
-  $query = "SELECT * FROM nflgames WHERE week_no='1' and year='2015'";
+  $query = "SELECT * FROM nflgames WHERE week_no='2' and year='2015'";
   
   // run the query
   $result = $con->query($query);

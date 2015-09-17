@@ -6,20 +6,20 @@ $(document).ready(function() {
         success: function(data) {
             
             // variables to hold the winners for each game
-            var win_one = "patriots";
-            var win_two = "packers";
-            var win_three = "chiefs";
-            var win_four = "jets";
-            var win_five = "bills";
-            var win_six = "dolphins";
-            var win_seven = "panthers";
-            var win_eight = "rams";
-            var win_nine = "cardinals";
-            var win_ten = "chargers";
-            var win_eleven = "titans";
-            var win_twelve = "bengals";
-            var win_thirteen = "broncos";
-            var win_fourteen = "cowboys";
+            var win_one = "";
+            var win_two = "";
+            var win_three = "";
+            var win_four = "";
+            var win_five = "";
+            var win_six = "";
+            var win_seven = "";
+            var win_eight = "";
+            var win_nine = "";
+            var win_ten = "";
+            var win_eleven = "";
+            var win_twelve = "";
+            var win_thirteen = "";
+            var win_fourteen = "";
             var win_fifteen = "";
             var win_sixteen = "";
             

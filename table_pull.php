@@ -2,7 +2,7 @@
     include('includes/db.php');
     
     // prepare the query
-    $query = "select * from nflbets where year='2015' and week_no='1'";
+    $query = "select * from nflbets where year='2015' and week_no='2'";
 
     // run the query
     $result = $con->query($query);
